@@ -69,6 +69,7 @@ public class Enemy : MonoBehaviour
         Time.timeScale = 0f;
         isGamePaused = true;
         Debug.Log("Game paused");
+        
     }
 
     public static void ResumeGame()
